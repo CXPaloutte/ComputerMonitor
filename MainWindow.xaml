@@ -1,4 +1,5 @@
-﻿<Window x:Class="ComputerMonitoring.MainWindow"
+﻿<!-- 桌面窗口 -->
+<Window x:Class="ComputerMonitoring.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,16 +7,33 @@
         xmlns:local="clr-namespace:ComputerMonitoring"
         mc:Ignorable="d"
         Title="Monitor" Height="40" Width="540"
-        WindowStyle = "None" AllowsTransparency = "True" Background = "White" Opacity = "0.4" Topmost = "True">
-
-    <Grid>
-        <StackPanel Orientation = "Horizontal" Margin = "10" Background="Transparent">
-            <TextBlock x:Name="CpuText" FontSize="14" Foreground="#0077DD" Margin = "0, 0, 10, 0"/>
-            <TextBlock x:Name="NvidiaText" FontSize="14" Foreground="#0077DD" Margin = "0, 0, 10, 0"/>
-            <TextBlock x:Name="AmdText" FontSize="14" Foreground="#0077DD" Margin = "0, 0, 10, 0"/>
-            <TextBlock x:Name="RamText" FontSize="14" Foreground="#0077DD" Margin="0, 0, 10, 0"/>
-            <TextBlock x:Name="BatteryText" FontSize="14" Foreground="#0077DD" Margin="0, 0, 10, 0"/>
-            <TextBlock x:Name="TimeText" FontSize="14" Foreground="#0077DD"/>
-        </StackPanel>
-    </Grid>
+        WindowStyle = "None" AllowsTransparency = "True" Background = "Transparent" Opacity = "1" Topmost = "True">
+    <!-- 窗口内、内容外的边框 -->
+    <Border Background="Transparent"
+            BorderThickness="1"
+            CornerRadius="12"
+            Padding="10,0">
+        <!-- 渐变画刷 画边框-->
+        <Border.BorderBrush>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#CC8BE9FD" Offset="0"/>
+                <GradientStop Color="#668EA5FF" Offset="0.35"/>
+                <GradientStop Color="#CCBEA1FF" Offset="0.7"/>
+                <GradientStop Color="#99F5B8D5" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.BorderBrush>
+        <!-- StackPanel 排列文字内容 -->
+        <Grid>
+            <!-- StackPanel 样式： 水平  和两边间隔为0  透明背景  垂直居中 -->
+            <StackPanel Orientation = "Horizontal" Margin = "0" Background="Transparent" VerticalAlignment="Center">
+                <TextBlock x:Name="CpuText" FontSize="14" Foreground="#0077DD" Margin = "0, 0, 10, 0"/>
+                <TextBlock x:Name="NvidiaText" FontSize="14" Foreground="#0077DD" Margin = "0, 0, 10, 0"/>
+                <TextBlock x:Name="AmdText" FontSize="14" Foreground="#0077DD" Margin = "0, 0, 10, 0"/>
+                <TextBlock x:Name="RamText" FontSize="14" Foreground="#0077DD" Margin="0, 0, 10, 0"/>
+                <TextBlock x:Name="BatteryText" FontSize="14" Foreground="#0077DD" Margin="0, 0, 10, 0"/>
+                <TextBlock x:Name="TimeText" FontSize="14" Foreground="#0077DD"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+    
 </Window>

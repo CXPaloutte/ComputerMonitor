@@ -68,3 +68,4 @@ D:\Code\ComputerMonitoring\obj\Debug\net10.0-windows\ComputerMonitoring.genrunti
 D:\Code\ComputerMonitoring\obj\Debug\net10.0-windows\ref\ComputerMonitoring.dll
 D:\Code\ComputerMonitoring\bin\Debug\net10.0-windows\Assets\DreamStar.ico
 D:\Code\ComputerMonitoring\obj\Debug\net10.0-windows\ComputerMonitoring_Content.g.cs
+D:\Code\ComputerMonitoring\obj\Debug\net10.0-windows\ComputerMonitoring.sourcelink.json
