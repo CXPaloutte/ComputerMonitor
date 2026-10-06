@@ -1,0 +1,16 @@
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\ComputerMonitoring.exe
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\Assets\DreamStar.ico
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\ComputerMonitoring.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\ComputerMonitoring.deps.json
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\ComputerMonitoring.runtimeconfig.json
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\ComputerMonitoring.pdb
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\BlackSharp.Core.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\DiskInfoToolkit.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\HidSharp.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\LibreHardwareMonitorLib.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\Mono.Posix.NETStandard.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\RAMSPDToolkit-NDD.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\System.IO.Ports.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\System.Management.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\MonoPosixHelper.dll
+D:\Code\ComputerMonitoring\bin\Release\net10.0-windows\win-x64\publish\libMonoPosixHelper.dll
